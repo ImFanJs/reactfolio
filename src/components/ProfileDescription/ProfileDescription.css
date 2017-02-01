@@ -1,0 +1,27 @@
+.ProfileDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProfileDescription p {
+  width: 75%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.titleStyle {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.titleStyle i {
+  font-size: 40px;
+  margin-right: 10px;
+  color: orange;
+}
