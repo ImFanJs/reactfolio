@@ -35,10 +35,11 @@ export default class ProfileContact extends Component {
           <a href='https://medium.com/@jesus_castaneda'>
             <i className='fa fa-medium opacity' />
           </a>
-          <a href='https://drive.google.com/file/d/0B_bNZgR0HXPTRldBa1VmVDg2Q3M/view?ts=5891486d'>
+          <a href='https://drive.google.com/open?id=0B5UoTTC89hCRakdpUDVtemdNZlE'>
             <i className='fa fa-file-pdf-o opacity' />
           </a>
         </div>
+        <br />
       </div>
     )
   }

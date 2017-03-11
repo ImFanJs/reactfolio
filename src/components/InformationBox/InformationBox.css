@@ -1,3 +1,33 @@
 .InformationBox {
-  
+  width: 70%;
+  padding: 30px;
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+}
+.InformationBox h2 {
+  text-align: center;
+}
+.InformationBox p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 769px) {
+  .InformationBox {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .InformationBox {
+    width: 98%;
+    height: auto;
+    padding: 1%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .InformationBox {
+      flex-direction: column;
+    }
 }

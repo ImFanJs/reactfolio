@@ -4,3 +4,16 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 769px) {
+  .ProfileBox {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .ProfileBox {
+    width: 100%;
+    height: auto;
+  }
+}

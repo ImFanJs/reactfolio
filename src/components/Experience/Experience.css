@@ -1,0 +1,10 @@
+.Experience {
+  width: 48%;
+  padding: 1%;
+}
+
+@media only screen and (max-width: 480px) {
+  .Experience {
+    width: 98%;
+  }
+}
