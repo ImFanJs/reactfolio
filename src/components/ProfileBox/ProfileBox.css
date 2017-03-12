@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 641px) {
   .ProfileBox {
     width: 100%;
     height: auto;

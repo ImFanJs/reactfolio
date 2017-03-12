@@ -5,7 +5,7 @@
   align-items: center;
 }
 .contactStyle {
-  width: 50%;
+  width: 70%;
   padding: 10px;
   border-radius: 5px;
   display: flex;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 .card {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -34,4 +34,10 @@
 .social i {
   font-size: 20px;
   color: white;
+}
+
+@media screen and (max-width: 641px) {
+  .card p {
+    text-align: center;
+  }
 }

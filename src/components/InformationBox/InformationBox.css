@@ -1,6 +1,6 @@
 .InformationBox {
   width: 70%;
-  padding: 30px;
+  padding: 15px;
   background-color: lightgray;
   display: flex;
   flex-wrap: wrap;
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 641px) {
   .InformationBox {
     width: 98%;
     height: auto;

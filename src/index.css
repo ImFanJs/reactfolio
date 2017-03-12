@@ -12,9 +12,8 @@ h1 {
 }
 h2 {
   color: orange;
-  font-size: 22px;
+  font-size: 18px;
   margin: 0;
-  padding: 10px;
   font-family: 'Slabo 27px', serif;
 }
 .opacity {
@@ -28,5 +27,21 @@ h2 {
   font-family: 'Bree Serif', serif;
 }
 .texto {
+  font-size: 14px !important;
   font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 769px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .company {
+    font-size: 14px !important;
+  }
+  .texto {
+    font-size: 12px !important;
+  }
 }
