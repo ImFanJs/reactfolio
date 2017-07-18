@@ -1,5 +1,6 @@
 .InformationBox {
   width: 70%;
+  min-height: 100%;
   padding: 15px;
   background-color: lightgray;
   display: flex;

@@ -12,6 +12,7 @@
 }
 .titleStyle {
   width: 80%;
+  min-height: 45px;
   padding: 10px;
   border: 1px solid orange;
   border-radius: 5px;
